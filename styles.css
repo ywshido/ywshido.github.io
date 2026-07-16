@@ -60,18 +60,16 @@ a:hover {
 }
 
 .profile-photo {
-  display: grid;
   width: 180px;
   height: 180px;
   margin: 0 auto 20px;
-  place-items: center;
-  color: white;
-  background:
-    radial-gradient(circle at 30% 24%, rgba(255, 255, 255, 0.36), transparent 24%),
-    linear-gradient(135deg, #287469 0%, #2563a8 100%);
+  display: block;
+  object-fit: cover;
+  object-position: center 34%;
+  background: white;
+  border: 1px solid var(--line);
   border-radius: 50%;
-  font-size: 48px;
-  font-weight: 700;
+  box-shadow: 0 10px 26px rgba(31, 41, 55, 0.12);
 }
 
 .sidebar h1 {
