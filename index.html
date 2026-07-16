@@ -11,287 +11,320 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#home" aria-label="返回首页">
-        <span class="brand-mark">YS</span>
-        <span>Yuwei Shi</span>
-      </a>
-      <nav class="site-nav" aria-label="页面导航">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#education">Education</a>
-        <a href="#publications">Publications</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+    <div class="page-shell">
+      <aside class="sidebar" aria-label="个人信息">
+        <div class="profile-photo" aria-hidden="true">YS</div>
+        <h1>Yuwei Shi</h1>
+        <p class="name-cn">石雨葳</p>
+        <p class="role">Ph.D. Student</p>
 
-    <main id="home">
-      <section class="hero section">
-        <div class="hero-copy">
-          <p class="eyebrow">Ph.D. Student · Reliability Engineering · Design Optimization</p>
-          <h1>石雨葳 / Yuwei Shi</h1>
-          <p class="lead">
-            我是南京理工大学经济管理学院管理科学与工程专业博士生，研究兴趣集中于代理建模、可靠性分析与可靠性设计优化。
-            我的研究关注如何在复杂工程系统的不确定环境中构建高效、稳健、可解释的建模与优化方法，为高可靠产品设计和质量工程决策提供方法支持。
-          </p>
-          <div class="hero-actions" aria-label="个人链接">
-            <a class="button primary" href="#contact">联系我</a>
-            <a class="button secondary" href="#publications">查看论文</a>
-          </div>
-          <div class="quick-links">
-            <a href="mailto:ywshi@njust.edu.cn">Email</a>
-            <a
-              href="https://www.researchgate.net/profile/Yuwei-Shi-7?ev=hdr_xprf"
-              target="_blank"
-              rel="noreferrer"
-            >ResearchGate</a>
-            <a
-              href="https://scholar.google.com.hk/citations?hl=zh-CN&pli=1&user=jQtBG3wAAAAJ"
-              target="_blank"
-              rel="noreferrer"
-            >Google Scholar</a>
-          </div>
-        </div>
-
-        <aside class="profile-panel" aria-label="个人信息">
-          <div class="portrait" aria-hidden="true">
-            <span>YS</span>
-          </div>
-          <h2>Yuwei Shi</h2>
-          <p>Doctoral Student</p>
-          <dl>
-            <div>
-              <dt>Affiliation</dt>
-              <dd>School of Economics and Management, Nanjing University of Science and Technology</dd>
-            </div>
-            <div>
-              <dt>Major</dt>
-              <dd>Management Science and Engineering</dd>
-            </div>
-            <div>
-              <dt>Email</dt>
-              <dd>ywshi@njust.edu.cn</dd>
-            </div>
-          </dl>
-        </aside>
-      </section>
-
-      <section class="section two-column" id="about">
-        <div>
-          <p class="section-kicker">About Me</p>
-          <h2>关于我</h2>
-        </div>
-        <div class="prose">
-          <p>
-            我目前在南京理工大学经济管理学院攻读管理科学与工程博士学位，并将于 2025 年 9 月至 2026 年 9 月在韩国高等科学技术院机械工程系进行联合培养。
-            我的研究主要面向复杂产品与工程系统中的不确定性建模、可靠性评估和设计优化问题。
-          </p>
-          <p>
-            近年来，我围绕主动学习 Kriging、Gaussian process modeling、time-variant reliability analysis 和 reliability-based design optimization 等主题开展研究，
-            关注如何用更少的计算成本获得更可靠的工程分析与优化结果。
-          </p>
-        </div>
-      </section>
-
-      <section class="section" id="research">
-        <div class="section-heading">
-          <p class="section-kicker">Research Areas</p>
-          <h2>研究方向</h2>
-        </div>
-        <div class="research-grid">
-          <article>
-            <span class="topic-number">01</span>
-            <h3>代理建模</h3>
-            <p>研究 Kriging、高斯过程、主动学习与多保真建模方法，提升复杂工程分析中的建模效率。</p>
-          </article>
-          <article>
-            <span class="topic-number">02</span>
-            <h3>可靠性分析</h3>
-            <p>面向静态和时变可靠性问题，构建高效的不确定性量化、失效概率评估与采样策略。</p>
-          </article>
-          <article>
-            <span class="topic-number">03</span>
-            <h3>可靠性设计优化</h3>
-            <p>结合可靠性约束、稳健设计与多目标优化，服务复杂产品的高质量、高可靠设计。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section two-column" id="education">
-        <div>
-          <p class="section-kicker">Education</p>
-          <h2>教育经历</h2>
-        </div>
-        <div class="stack-list">
-          <article>
-            <span>2025.09 - 2026.09</span>
-            <h3>韩国高等科学技术院 · 机械工程</h3>
-            <p>联合培养博士生。</p>
-          </article>
-          <article>
-            <span>2023.09 - 至今</span>
-            <h3>南京理工大学经济管理学院 · 管理科学与工程</h3>
-            <p>博士研究生。</p>
-          </article>
-          <article>
-            <span>2021.09 - 2023.09</span>
-            <h3>南京理工大学经济管理学院 · 管理科学与工程</h3>
-            <p>硕士研究生。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section split-band" id="honors">
-        <div>
-          <p class="section-kicker">Honors & Experience</p>
-          <h2>获奖与经历</h2>
-        </div>
-        <div class="timeline">
-          <article>
-            <time datetime="2026">2026</time>
-            <p>南京理工大学优秀博士生。</p>
-          </article>
-          <article>
-            <time datetime="2025">2025</time>
-            <p>韩国高等科学技术院机械工程系联合培养博士生项目。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="publications">
-        <div class="section-heading">
-          <p class="section-kicker">Selected Publications</p>
-          <h2>论文成果</h2>
-        </div>
-        <div class="paper-list">
-          <article>
-            <p class="paper-title">Active learning Kriging-based multi-objective modeling and optimization for system reliability-based robust design</p>
-            <p><strong>Yuwei Shi</strong>, Chenglong Lin, Yizhong Ma, Jingyuan Shen</p>
-            <p>Reliability Engineering & System Safety, 2024, 245: 110007. WOS: 001187990800001, JCR Q1, Impact factor 11.0.</p>
-          </article>
-          <article>
-            <p class="paper-title">Stepwise error reduction: a novel look-ahead learning strategy for accelerating system reliability assessment</p>
-            <p><strong>Yuwei Shi</strong>, Ikjin Lee, Chenglong Lin, Yizhong Ma</p>
-            <p>IEEE Transactions on Reliability, 2025, 75: 218-232. WOS: 001638233400001, JCR Q1, Impact factor 5.7.</p>
-          </article>
-          <article>
-            <p class="paper-title">Efficient time-variant reliability analysis through parallel adaptive Gaussian process modeling based on look-ahead sampling strategy</p>
-            <p><strong>Yuwei Shi</strong>, Ikjin Lee, Weifei Hu, Liangqi Wan, Yizhong Ma</p>
-            <p>Reliability Engineering & System Safety, 2026: 112734. WOS: 001749337700001, JCR Q1, Impact factor 11.0.</p>
-          </article>
-          <article>
-            <p class="paper-title">An efficient reliability-based design optimization approach based on probability quantile estimation and structural constraint integration</p>
-            <p><strong>Yuwei Shi</strong>, Chenglong Lin, Mingyu Lee, Jingyuan Shen, Ikjin Lee, Yizhong Ma</p>
-            <p>Computers & Industrial Engineering, 2026: 112102. Published online, JCR Q1, Impact factor 6.7.</p>
-          </article>
-          <article>
-            <p class="paper-title">面向质量设计的代理模型协调优化方法</p>
-            <p><strong>石雨葳</strong>, 马义中, 林成龙</p>
-            <p>系统工程学报, 2025, 40(4): 512-527. CSCD, FMS: T2.</p>
-          </article>
-          <article>
-            <p class="paper-title">A novel robust design method depended on the coordination mechanism of surrogate models</p>
-            <p><strong>Yuwei Shi</strong>, Chenglong Lin, Yizhong Ma, Tianli Xiao</p>
-            <p>2023 3rd International Conference on Computer, Control and Robotics, 2023: 399-403. EI, Accession number: 20233414619613.</p>
-          </article>
-          <article>
-            <p class="paper-title">基于主动学习随机Kriging模型的在线质量设计方法</p>
-            <p>杜晨, 林成龙, <strong>石雨葳</strong>, 马义中</p>
-            <p>中国管理科学, 1-18. 在线发表, CSCD, FMS: T1. DOI: 10.16381/j.cnki.issn1003-207x.2024.1370.</p>
-          </article>
-          <article>
-            <p class="paper-title">基于Bayesian期望改进控制和Kriging模型的并行代理优化方法</p>
-            <p>杜晨, 林成龙, 马义中, <strong>石雨葳</strong></p>
-            <p>计算机集成制造系统, 2025, 31(04): 1190-1204. EI, CSCD.</p>
-          </article>
-          <article>
-            <p class="paper-title">A Scaled Prediction Information Product Criterion for Bayesian Optimization</p>
-            <p>Tao Huang, <strong>Yuwei Shi</strong>, Yizhong Ma, Chenglong Lin</p>
-            <p>2024 6th International Conference on Data-driven Optimization of Complex Systems, IEEE, 2024: 307-312. EI, Accession number: 20244517306763.</p>
-          </article>
-          <article>
-            <p class="paper-title">An extended expected improvement matrix criterion for expensive multi-objective optimization</p>
-            <p>Chen Du, Yizhong Ma, <strong>Yuwei Shi</strong>, Chenglong Lin</p>
-            <p>2024 4th International Conference on Computer Science and Blockchain, CCSB 2024: 206-211. EI, Accession number: 20245017496583.</p>
-          </article>
-          <article>
-            <p class="paper-title">A parallel Bayesian active learning framework for time-variant reliability analysis using multi-point stepwise uncertainty reduction</p>
-            <p><strong>Yuwei Shi</strong>, Ikjin Lee, Weifei Hu, Liangqi Wan, Yizhong Ma</p>
-            <p>Structural Safety, Under review. JCR Q1, Impact factor 6.3.</p>
-          </article>
-          <article>
-            <p class="paper-title">Multi-fidelity stepwise uncertainty reduction-guided active learning for time-variant reliability analysis</p>
-            <p><strong>Yuwei Shi</strong>, Mingyu Lee, Ikjin Lee, Yizhong Ma</p>
-            <p>Advanced Engineering Informatics, Under review. JCR Q1, Impact factor 9.9.</p>
-          </article>
-          <article>
-            <p class="paper-title">A two-stage Gaussian process uncertainty reduction method for time-variant reliability-based design optimization</p>
-            <p><strong>Yuwei Shi</strong>, Ikjin Lee, Weifei Hu, Yizhong Ma</p>
-            <p>Working paper.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="projects">
-        <div class="section-heading">
-          <p class="section-kicker">Research Projects & Patents</p>
-          <h2>科研项目与专利</h2>
-        </div>
-        <div class="project-grid">
-          <article>
-            <div class="project-visual visual-a"></div>
-            <h3>江苏省研究生科研与实践创新计划项目</h3>
-            <p>基于主动学习 Kriging 模型的可靠性设计优化方法研究，编号 KYCX24_0726，主持。</p>
-          </article>
-          <article>
-            <div class="project-visual visual-b"></div>
-            <h3>国家自然科学基金项目参与</h3>
-            <p>参与“全生命周期质量工程理论与方法”等国家自然科学基金重点项目与面上项目研究。</p>
-          </article>
-          <article>
-            <div class="project-visual visual-c"></div>
-            <h3>发明专利</h3>
-            <p>一种基于 Kriging 代理模型辅助的齿轮减速器稳健优化设计方法，专利号：202211020504.0。</p>
-          </article>
-          <article>
-            <div class="project-visual visual-d"></div>
-            <h3>发明专利</h3>
-            <p>一种基于 Kriging 代理模型的汽车碰撞安全性设计优化方法，专利号：202410062331.1。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="contact">
-        <div>
-          <p class="section-kicker">Contact</p>
-          <h2>联系方式</h2>
-          <p>
-            欢迎通过邮件联系我，也可以在 ResearchGate 或 Google Scholar 上关注我的最新研究工作。
-          </p>
-        </div>
-        <div class="contact-card">
+        <div class="profile-facts">
+          <p>Nanjing University of Science and Technology</p>
+          <p>School of Economics and Management</p>
+          <p>Management Science and Engineering</p>
           <a href="mailto:ywshi@njust.edu.cn">ywshi@njust.edu.cn</a>
-          <span>南京理工大学经济管理学院</span>
-          <span>管理科学与工程专业</span>
-          <a
-            href="https://www.researchgate.net/profile/Yuwei-Shi-7?ev=hdr_xprf"
-            target="_blank"
-            rel="noreferrer"
-          >ResearchGate Profile</a>
+        </div>
+
+        <nav class="side-nav" aria-label="页面导航">
+          <p>Navigate</p>
+          <a href="#about">About Me</a>
+          <a href="#research">Research Area</a>
+          <a href="#publications">Publication</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="profile-links" aria-label="学术主页链接">
           <a
             href="https://scholar.google.com.hk/citations?hl=zh-CN&pli=1&user=jQtBG3wAAAAJ"
             target="_blank"
             rel="noreferrer"
-          >Google Scholar Profile</a>
+          >Scholar</a>
+          <a
+            href="https://www.researchgate.net/profile/Yuwei-Shi-7?ev=hdr_xprf"
+            target="_blank"
+            rel="noreferrer"
+          >ResearchGate</a>
         </div>
-      </section>
-    </main>
+      </aside>
 
-    <footer>
-      <p>© 2026 Yuwei Shi. Personal academic homepage.</p>
-      <a href="#home" aria-label="返回顶部">Back to top</a>
-    </footer>
+      <main class="content">
+        <section class="section" id="about">
+          <h2>About Me</h2>
+          <p>
+            Yuwei Shi is currently a Ph.D. student in Management Science and Engineering at the School of Economics and Management,
+            Nanjing University of Science and Technology. She will visit the Department of Mechanical Engineering at KAIST as a joint-training doctoral student from September 2025 to September 2026.
+          </p>
+          <p>
+            Her research interests include surrogate modeling, reliability analysis, and reliability-based design optimization.
+            She focuses on efficient modeling and optimization methods for complex engineering systems under uncertainty, especially active learning Kriging, Gaussian process modeling, time-variant reliability analysis, and quality-oriented design optimization.
+          </p>
+
+          <div class="cv-grid">
+            <article>
+              <h3>Education</h3>
+              <div class="cv-item">
+                <span>2025.09 - 2026.09</span>
+                <p><strong>KAIST</strong> · Mechanical Engineering</p>
+                <p>Joint-training Ph.D. student.</p>
+              </div>
+              <div class="cv-item">
+                <span>2023.09 - Present</span>
+                <p><strong>Nanjing University of Science and Technology</strong></p>
+                <p>Ph.D. student in Management Science and Engineering.</p>
+              </div>
+              <div class="cv-item">
+                <span>2021.09 - 2023.09</span>
+                <p><strong>Nanjing University of Science and Technology</strong></p>
+                <p>M.Sc. student in Management Science and Engineering.</p>
+              </div>
+            </article>
+
+            <article>
+              <h3>Honors & Experience</h3>
+              <div class="cv-item">
+                <span>2026</span>
+                <p><strong>Outstanding Doctoral Student</strong></p>
+                <p>Nanjing University of Science and Technology.</p>
+              </div>
+              <div class="cv-item">
+                <span>2025.09 - 2026.09</span>
+                <p><strong>Joint-training doctoral program</strong></p>
+                <p>Department of Mechanical Engineering, KAIST.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="research">
+          <h2>Research Area</h2>
+          <div class="research-list">
+            <article>
+              <h3>Surrogate Modeling</h3>
+              <p>
+                Kriging, Gaussian process modeling, active learning, and multi-fidelity surrogate strategies for expensive engineering simulations.
+              </p>
+            </article>
+            <article>
+              <h3>Reliability Analysis</h3>
+              <p>
+                Efficient uncertainty quantification, failure probability estimation, and adaptive sampling methods for static and time-variant reliability problems.
+              </p>
+            </article>
+            <article>
+              <h3>Reliability-Based Design Optimization</h3>
+              <p>
+                Reliability constraints, robust design, quality loss, and multi-objective optimization for high-reliability product design.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="publications">
+          <div class="section-title-row">
+            <div>
+              <h2>Publication</h2>
+              <p class="publication-count">10 published · 2 under review · 1 working paper</p>
+            </div>
+            <div class="filters" aria-label="论文筛选">
+              <button class="filter-button active" type="button" data-filter="all">All</button>
+              <button class="filter-button" type="button" data-filter="journal">Journal</button>
+              <button class="filter-button" type="button" data-filter="conference">Conference</button>
+              <button class="filter-button" type="button" data-filter="review">Under Review</button>
+            </div>
+          </div>
+
+          <div class="publication-list">
+            <article class="publication-item" data-type="journal">
+              <span class="pub-tag">J1</span>
+              <div>
+                <h3>Active learning Kriging-based multi-objective modeling and optimization for system reliability-based robust design</h3>
+                <p><strong>Yuwei Shi</strong>, Chenglong Lin, Yizhong Ma, Jingyuan Shen</p>
+                <p>Reliability Engineering & System Safety, 2024, 245: 110007.</p>
+                <div class="meta-tags"><span>JCR Q1</span><span>IF 11.0</span><span>WOS: 001187990800001</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="journal">
+              <span class="pub-tag">J2</span>
+              <div>
+                <h3>Stepwise error reduction: a novel look-ahead learning strategy for accelerating system reliability assessment</h3>
+                <p><strong>Yuwei Shi</strong>, Ikjin Lee, Chenglong Lin, Yizhong Ma</p>
+                <p>IEEE Transactions on Reliability, 2025, 75: 218-232.</p>
+                <div class="meta-tags"><span>JCR Q1</span><span>IF 5.7</span><span>WOS: 001638233400001</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="journal">
+              <span class="pub-tag">J3</span>
+              <div>
+                <h3>Efficient time-variant reliability analysis through parallel adaptive Gaussian process modeling based on look-ahead sampling strategy</h3>
+                <p><strong>Yuwei Shi</strong>, Ikjin Lee, Weifei Hu, Liangqi Wan, Yizhong Ma</p>
+                <p>Reliability Engineering & System Safety, 2026: 112734.</p>
+                <div class="meta-tags"><span>JCR Q1</span><span>IF 11.0</span><span>WOS: 001749337700001</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="journal">
+              <span class="pub-tag">J4</span>
+              <div>
+                <h3>An efficient reliability-based design optimization approach based on probability quantile estimation and structural constraint integration</h3>
+                <p><strong>Yuwei Shi</strong>, Chenglong Lin, Mingyu Lee, Jingyuan Shen, Ikjin Lee, Yizhong Ma</p>
+                <p>Computers & Industrial Engineering, 2026: 112102. Published online.</p>
+                <div class="meta-tags"><span>JCR Q1</span><span>IF 6.7</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="journal">
+              <span class="pub-tag">J5</span>
+              <div>
+                <h3>面向质量设计的代理模型协调优化方法</h3>
+                <p><strong>石雨葳</strong>, 马义中, 林成龙</p>
+                <p>系统工程学报, 2025, 40(4): 512-527.</p>
+                <div class="meta-tags"><span>CSCD</span><span>FMS T2</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="conference">
+              <span class="pub-tag">C1</span>
+              <div>
+                <h3>A novel robust design method depended on the coordination mechanism of surrogate models</h3>
+                <p><strong>Yuwei Shi</strong>, Chenglong Lin, Yizhong Ma, Tianli Xiao</p>
+                <p>2023 3rd International Conference on Computer, Control and Robotics, 2023: 399-403.</p>
+                <div class="meta-tags"><span>EI</span><span>Accession: 20233414619613</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="journal">
+              <span class="pub-tag">J6</span>
+              <div>
+                <h3>基于主动学习随机Kriging模型的在线质量设计方法</h3>
+                <p>杜晨, 林成龙, <strong>石雨葳</strong>, 马义中</p>
+                <p>中国管理科学, 1-18. DOI: 10.16381/j.cnki.issn1003-207x.2024.1370.</p>
+                <div class="meta-tags"><span>Online</span><span>CSCD</span><span>FMS T1</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="journal">
+              <span class="pub-tag">J7</span>
+              <div>
+                <h3>基于Bayesian期望改进控制和Kriging模型的并行代理优化方法</h3>
+                <p>杜晨, 林成龙, 马义中, <strong>石雨葳</strong></p>
+                <p>计算机集成制造系统, 2025, 31(04): 1190-1204.</p>
+                <div class="meta-tags"><span>EI</span><span>CSCD</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="conference">
+              <span class="pub-tag">C2</span>
+              <div>
+                <h3>A Scaled Prediction Information Product Criterion for Bayesian Optimization</h3>
+                <p>Tao Huang, <strong>Yuwei Shi</strong>, Yizhong Ma, Chenglong Lin</p>
+                <p>2024 6th International Conference on Data-driven Optimization of Complex Systems, IEEE, 2024: 307-312.</p>
+                <div class="meta-tags"><span>EI</span><span>Accession: 20244517306763</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="conference">
+              <span class="pub-tag">C3</span>
+              <div>
+                <h3>An extended expected improvement matrix criterion for expensive multi-objective optimization</h3>
+                <p>Chen Du, Yizhong Ma, <strong>Yuwei Shi</strong>, Chenglong Lin</p>
+                <p>2024 4th International Conference on Computer Science and Blockchain, CCSB 2024: 206-211.</p>
+                <div class="meta-tags"><span>EI</span><span>Accession: 20245017496583</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="review">
+              <span class="pub-tag">R1</span>
+              <div>
+                <h3>A parallel Bayesian active learning framework for time-variant reliability analysis using multi-point stepwise uncertainty reduction</h3>
+                <p><strong>Yuwei Shi</strong>, Ikjin Lee, Weifei Hu, Liangqi Wan, Yizhong Ma</p>
+                <p>Structural Safety, Under review.</p>
+                <div class="meta-tags"><span>Under Review</span><span>JCR Q1</span><span>IF 6.3</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="review">
+              <span class="pub-tag">R2</span>
+              <div>
+                <h3>Multi-fidelity stepwise uncertainty reduction-guided active learning for time-variant reliability analysis</h3>
+                <p><strong>Yuwei Shi</strong>, Mingyu Lee, Ikjin Lee, Yizhong Ma</p>
+                <p>Advanced Engineering Informatics, Under review.</p>
+                <div class="meta-tags"><span>Under Review</span><span>JCR Q1</span><span>IF 9.9</span></div>
+              </div>
+            </article>
+
+            <article class="publication-item" data-type="review">
+              <span class="pub-tag">W1</span>
+              <div>
+                <h3>A two-stage Gaussian process uncertainty reduction method for time-variant reliability-based design optimization</h3>
+                <p><strong>Yuwei Shi</strong>, Ikjin Lee, Weifei Hu, Yizhong Ma</p>
+                <p>Working paper.</p>
+                <div class="meta-tags"><span>Working Paper</span></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <h2>Projects & Patents</h2>
+          <div class="compact-list">
+            <article>
+              <span>Project</span>
+              <p>2024年江苏省研究生科研与实践创新计划项目：基于主动学习 Kriging 模型的可靠性设计优化方法研究，编号 KYCX24_0726，主持。</p>
+            </article>
+            <article>
+              <span>Project</span>
+              <p>参与国家自然科学基金重点项目“全生命周期质量工程理论与方法”及多项国家自然科学基金面上项目。</p>
+            </article>
+            <article>
+              <span>Patent</span>
+              <p>一种基于 Kriging 代理模型辅助的齿轮减速器稳健优化设计方法，专利号：202211020504.0。</p>
+            </article>
+            <article>
+              <span>Patent</span>
+              <p>一种基于 Kriging 代理模型的汽车碰撞安全性设计优化方法，专利号：202410062331.1。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <h2>Contact</h2>
+          <div class="contact-grid">
+            <article>
+              <span>Email</span>
+              <a href="mailto:ywshi@njust.edu.cn">ywshi@njust.edu.cn</a>
+            </article>
+            <article>
+              <span>Institution</span>
+              <p>School of Economics and Management<br />Nanjing University of Science and Technology</p>
+            </article>
+            <article>
+              <span>Academic Profiles</span>
+              <p>
+                <a
+                  href="https://scholar.google.com.hk/citations?hl=zh-CN&pli=1&user=jQtBG3wAAAAJ"
+                  target="_blank"
+                  rel="noreferrer"
+                >Google Scholar</a>
+                ·
+                <a
+                  href="https://www.researchgate.net/profile/Yuwei-Shi-7?ev=hdr_xprf"
+                  target="_blank"
+                  rel="noreferrer"
+                >ResearchGate</a>
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <footer>
+          <p>© 2026 Yuwei Shi. Personal academic homepage.</p>
+          <a href="#about">Back to top</a>
+        </footer>
+      </main>
+    </div>
 
     <script src="script.js"></script>
   </body>
