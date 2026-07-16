@@ -91,6 +91,32 @@ a:hover {
   font-weight: 700;
 }
 
+.language-switch {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.language-switch a {
+  min-width: 72px;
+  padding: 5px 10px;
+  color: var(--muted);
+  text-align: center;
+  background: var(--tag);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.language-switch a.active {
+  color: white;
+  background: var(--blue);
+  border-color: var(--blue);
+  text-decoration: none;
+}
+
 .profile-facts {
   display: grid;
   gap: 6px;
