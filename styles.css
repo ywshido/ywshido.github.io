@@ -241,7 +241,7 @@ a:hover {
   border-top: 0;
 }
 
-.cv-item span,
+.cv-item > span,
 .compact-list span,
 .contact-grid span {
   display: block;
@@ -249,6 +249,25 @@ a:hover {
   color: var(--green);
   font-size: 13px;
   font-weight: 700;
+}
+
+.cv-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 4px;
+}
+
+.cv-meta span {
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.cv-meta span:last-child {
+  color: var(--muted);
+  white-space: nowrap;
 }
 
 .cv-item p {
